@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/maa.css">
+
+    <title>Spin</title>
+  </head>
+  <body>
+    <div class="firebass">
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+    </div>
+    <div style="display:none" id="main">
+        <h2>Hello <span id="name"></span></h2>
+        <button type="button" name="button" onclick="pushed()">Press here</button>
+        <div id="text1"><h2 style="text-align:center;font-size:13vw;"></h2></div>
+    </div>
+  </body>
+  <script src="/__/firebase/8.3.1/firebase-app.js"></script>
+  <script src="/__/firebase/8.3.1/firebase-auth.js"></script>
+  <script src="/__/firebase/ui/4.6.1/firebase-ui-auth.js"></script>
+  <script src="/__/firebase/8.3.1/firebase-database.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="/js/script1.js"></script>
+</html>

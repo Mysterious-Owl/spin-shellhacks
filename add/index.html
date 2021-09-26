@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheet/maa.css">
+  <title>Spin</title>
+</head>
+
+<body>
+    <h2 style="text-align:center;"><a class="foota" href="/">HOME</a></h2>
+    <br>
+    <div class="container" id="main1">
+        <form action="javascript:send_data()" id="form">
+            <div class="row1">
+                <div class="col-25">
+                  <label for="headi">Value</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="headi" name="headi">
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col-25">
+                  <label for="link">Active</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="link" name="link">
+                </div>
+            </div>
+            <div class="row1">
+                <input type="submit" value="Submit">
+            </div>
+            <span id="sub"></span>
+        </form>
+    </div>
+    <br><br>
+    <div id="main" style="display:none;">
+        <table class="row" id="tab">
+        </table>
+    </div>
+</body>
+
+<script src="/__/firebase/8.3.1/firebase-app.js"></script>
+<script src="/__/firebase/8.3.1/firebase-database.js"></script>
+<script src="/__/firebase/8.3.1/firebase-auth.js"></script>
+<script src="/__/firebase/ui/4.6.1/firebase-ui-auth.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="/js/script2.js"></script>
+</html>
